@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+  />
+  <body id="forest">
+    <div id="pokedex">
+      <div class="sensor">
+        <button></button>
+      </div>
+      <div class="camera-display">
+        <div class="card-picture"></div>
+      </div>
+      <div class="divider"></div>
+      <div class="stats-display">
+        <h2 class="card-title"></h2>
+        <div class="card-id"></div>
+        <!--<h3>Abilities</h3>
+      <ul>
+        <li>Solar-power</li>
+        <li>Blaze</li>
+      </ul>
+      -->
+        <h3>Moves</h3>
+        <div class="card-moves"></div>
+      </div>
+      <div class="botom-actions">
+        <div id="actions">
+          <button class="a"></button>
+        </div>
+        <div id="cross">
+          <button class="cross-button up"></button>
+          <button class="cross-button right" id="back"></button>
+          <button class="cross-button down"></button>
+          <button class="cross-button left" id="next"></button>
+          <div class="cross-button center"></div>
+        </div>
+      </div>
+      <div class="input-pad">
+        <input type="text" class="pokemon-search" placeholder="Search" />
+      </div>
+
+      <div class="bottom-modes">
+        <button class="level-button"></button>
+        <button class="level-button"></button>
+        <button class="level-button"></button>
+        <button class="level-button"></button>
+
+        <button class="pokedex-mode black-button" id="searchPokemon">
+          Pokedex
+        </button>
+        <button class="game-mode black-button">Game</button>
+      </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
